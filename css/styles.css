@@ -2807,6 +2807,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-btn-border-radius);
   background-color: var(--bs-btn-bg);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 1rem 0rem;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -2853,19 +2854,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #bd5d38;
-  --bs-btn-border-color: #bd5d38;
+  --bs-btn-bg: var(--icon-purpureus);
+  --bs-btn-border-color: var(--icon-purpureus);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #c77556;
-  --bs-btn-hover-border-color: #c46d4c;
+  --bs-btn-hover-bg: var(--icon-purpureus-2);
+  --bs-btn-hover-border-color: var(--icon-purpureus-2);
   --bs-btn-focus-shadow-rgb: 161, 79, 48;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ca7d60;
-  --bs-btn-active-border-color: #c46d4c;
+  --bs-btn-active-bg: var(--icon-purpureus);
+  --bs-btn-active-border-color: var(--icon-purpureus);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #bd5d38;
-  --bs-btn-disabled-border-color: #bd5d38;
+  --bs-btn-disabled-bg: var(--icon-russian-violet);
+  --bs-btn-disabled-border-color: var(--icon-russian-violet);
 }
 
 .btn-secondary {
