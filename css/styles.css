@@ -10982,5 +10982,28 @@ section.resume-section .resume-section-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-
-
+.card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 1.25rem;
+	-moz-column-gap: 1.25rem;
+	column-gap: 0!important;
+}
+.card {
+	margin: 0.25rem!important;
+	flex-direction:row!important;
+}
+.card-img-overlay{
+	opacity:0;
+}
+.card-img-overlay .card-title{
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.card-img-overlay .card-text{
+	margin-bottom: 0;
+}
+.card:hover .card-img-overlay{
+	opacity:0.8	;
+}
