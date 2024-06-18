@@ -10960,6 +10960,7 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+  max-width: 90rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -10985,11 +10986,37 @@ section.resume-section .resume-section-content {
 .card-columns {
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
-	column-count: 3;
+	column-count: 1;
 	-webkit-column-gap: 1.25rem;
 	-moz-column-gap: 1.25rem;
 	column-gap: 0!important;
 }
+@media (min-width: 576px) {
+  .card-columns {
+		column-count: 2;
+	}
+}
+@media (min-width: 768px) {
+  .card-columns {
+		column-count: 3;
+	}
+}
+@media (min-width: 992px) {
+  .card-columns {
+		column-count: 4;
+	}
+}
+@media (min-width: 1200px) {
+  .card-columns {
+		column-count: 4;
+	}
+}
+@media (min-width: 1400px) {
+  .card-columns {
+		column-count: 5;
+	}
+}
+
 .card {
 	margin: 0.25rem!important;
 	flex-direction:row!important;
