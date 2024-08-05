@@ -3,13 +3,31 @@
 
     <url>
         <loc>https://www.erinjmackey.com/index.html</loc>
-        <lastmod>2024-01-29</lastmod>
+        <lastmod>2024-08-05</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.erinjmackey.com/acting.html</loc>
-        <lastmod>2024-01-29</lastmod>
+        <loc>https://www.erinjmackey.com/acting/index.html</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.erinjmackey.com/costumes/index.html</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.erinjmackey.com/sewing/index.html</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.erinjmackey.com/wedding/index.html</loc>
+        <lastmod>2024-08-05</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
